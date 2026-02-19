@@ -1,0 +1,82 @@
+
+<!-- saved from url=(0011)about:blank -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body>import { useRef, useState } from "react";
+import emailjs from "emailjs-com";
+
+export default function Contact() {
+  const form = useRef();
+  const [success, setSuccess] = useState("");
+
+  const sendEmail = (e) =&gt; {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "YOUR_SERVICE_ID", // replace with your EmailJS service ID
+        "YOUR_TEMPLATE_ID", // replace with your EmailJS template ID
+        form.current,
+        "YOUR_PUBLIC_KEY" // replace with your EmailJS public key
+      )
+      .then(
+        (result) =&gt; {
+          console.log(result.text);
+          setSuccess("Message sent successfully! ✅");
+          form.current.reset();
+        },
+        (error) =&gt; {
+          console.log(error.text);
+          setSuccess("Oops! Something went wrong. ❌");
+        }
+      );
+  };
+
+  return (
+    <section id="contact" classname="bg-gray-300 px-6 py-16">
+      <div classname="max-w-2xl mx-auto text-center bg-white p-8 rounded-2xl shadow-lg">
+        <h3 classname="text-2xl font-bold mb-4">Contact Me</h3>
+        <p classname="mb-6">
+          Email:{" "}
+          <a href="mailto:cmletsau@gmail.com" classname="text-blue-500">
+            cmletsau@gmail.com
+          </a>{" "}
+          | Phone: 072 484 1337
+        </p>
+
+        <form ref="{form}" onsubmit="{sendEmail}" classname="space-y-4 text-left">
+          <div>
+            <label classname="block mb-1 font-medium">Name</label>
+            <input type="text" name="user_name" required="" classname="w-full border border-gray-300 rounded px-3 py-2">
+          </div>
+
+          <div>
+            <label classname="block mb-1 font-medium">Email</label>
+            <input type="email" name="user_email" required="" classname="w-full border border-gray-300 rounded px-3 py-2">
+          </div>
+
+          <div>
+            <label classname="block mb-1 font-medium">Message</label>
+            <textarea name="message" required="" rows="5" classname="w-full border border-gray-300 rounded px-3 py-2"></textarea>
+          </div>
+
+          <button type="submit" classname="bg-blue-500 text-white px-6 py-2 rounded hover:bg-blue-600 transition">
+            Send Message
+          </button>
+        </form>
+
+        {success &amp;&amp; <p classname="mt-4 text-green-600">{success}</p>}
+
+        <p classname="mt-6">
+          GitHub:{" "}
+          <a href="https://github.com/cecilialetsau25" target="_blank" rel="noreferrer" classname="text-blue-500">
+            cecilialetsau25
+          </a>{" "}
+          | LinkedIn:{" "}
+          <a href="https://linkedin.com/in/magalane-letsau" target="_blank" rel="noreferrer" classname="text-blue-500">
+            magalane-letsau
+          </a>
+        </p>
+      </div>
+    </section>
+  );
+}
+</body></html>
