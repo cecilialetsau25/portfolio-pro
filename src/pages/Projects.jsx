@@ -275,7 +275,7 @@ const projectsData = [
     "A full-featured e-commerce application for selling braces with product browsing, cart management, and checkout functionality.",
   image: bracesImg,
   tags: ['JavaScript (ES6+)', 'HTML', 'CSS', 'React', 'Tailwind CSS', 'Firebase'],
-  live: "https://ecommerce-app-three-sand.vercel.app/",
+  link: "https://ecommerce-app-three-sand.vercel.app/",
   github: "",
   duration: "3 months",
   about:
@@ -301,7 +301,7 @@ const projectsData = [
     "An interactive developer portfolio presenting skills, certifications, and professional journey through modern UI experiences.",
   image: heroImg,
   tags: ['React', 'Tailwind CSS', 'Framer Motion', 'JavaScript', 'Vercel'],
-  live: "",
+  link: "",
   github: "",
   duration: "Ongoing",
   about:
@@ -327,7 +327,7 @@ const projectsData = [
     "A customer service ticketing system enabling users to log, track, and manage support requests efficiently.",
   image: teketeImg,
   tags: ['PHP', 'Laravel', 'MySQL', 'JavaScript', 'jQuery'],
-  live: "http://training.tekete.co.za",
+  link: "http://training.tekete.co.za",
   github: "",
   duration: "4 months",
   about:
@@ -353,7 +353,7 @@ const projectsData = [
     "A dashboard-style internship progress tracker for managing learning goals and mentor reviews.",
   image: gradtrackImg,
   tags: ['React', 'Tailwind CSS', 'React Router', 'JavaScript'],
-  live: "https://react-tailwind-task-tracker.vercel.app/",
+  link: "https://react-tailwind-task-tracker.vercel.app/",
   github: "https://github.com/cecilialetsau25/react-tailwind-task-tracker",
   duration: "2 months",
   about:
@@ -379,7 +379,7 @@ const projectsData = [
     "A movie streaming interface displaying trending and popular films using live API data.",
   image: streamingImg,
   tags: ['React', 'Tailwind CSS', 'Framer Motion', 'API Integration'],
-  live: "https://react-streaming-app-delta.vercel.app/",
+  link: "https://react-streaming-app-delta.vercel.app/",
   github: "https://github.com/cecilialetsau25/react-streaming-app",
   duration: "2 months",
   about:
@@ -405,7 +405,7 @@ const projectsData = [
     "A banking system managing accounts and transactions with secure data handling.",
   image: letsauImg,
   tags: ['Java', 'MySQL', 'Bootstrap', 'HTML', 'CSS'],
-  live: "https://letsau-bank-v2-ijc4.vercel.app/",
+  link: "https://letsau-bank-v2-ijc4.vercel.app/",
   github: "https://github.com/cecilialetsau25/LetsauBankV2",
   duration: "3 months",
   about:
@@ -431,7 +431,7 @@ const projectsData = [
     "A full-stack laundry management platform with authentication, order tracking, and admin analytics.",
   image: cleaneaseImg,
   tags: ['Laravel', 'React', 'Supabase', 'MySQL', 'Tailwind CSS'],
-  live: "https://cleanease-v2.vercel.app/",
+  link: "https://cleanease-v2.vercel.app/",
   github: "https://github.com/cecilialetsau25/Cleanease_Laundry_System",
   duration: "4 months",
   about:
@@ -457,7 +457,7 @@ const projectsData = [
     "A MERN stack task management application built using TypeScript.",
   image: mernImg,
   tags: ['MongoDB', 'Express', 'React', 'Node.js', 'TypeScript'],
-  live: "https://mern-typescript-todo-72oo.vercel.app/",
+  link: "https://mern-typescript-todo-72oo.vercel.app/",
   github: "https://github.com/cecilialetsau25/mern-typescript-todo",
   duration: "2 months",
   about:
@@ -483,7 +483,7 @@ const projectsData = [
     "A platform connecting consumers with nearby service providers.",
   image: spaniplugImg,
   tags: ['React', 'Supabase', 'Tailwind CSS', 'JavaScript'],
-  live: "https://spaniplug.vercel.app/",
+  link: "https://spaniplug.vercel.app/",
   github: "",
   duration: "3 months",
   about:
@@ -509,7 +509,7 @@ const projectsData = [
     "A motivational quotes application built using Angular standalone components.",
   image: quotesImg,
   tags: ['Angular', 'TypeScript', 'HTML', 'CSS'],
-  live: "https://quotes-app-ten-kappa.vercel.app/",
+  link: "https://quotes-app-ten-kappa.vercel.app/",
   github: "https://github.com/cecilialetsau25/quotes-app",
   duration: "1 month",
   about:
@@ -535,7 +535,7 @@ const projectsData = [
     "Interactive C# web application demonstrating Blazor WebAssembly capabilities.",
   image: port6Img,
   tags: ['C#', 'Blazor', '.NET', 'WebAssembly'],
-  live: "https://cheery-shortbread-e9e183.netlify.app/",
+  link: "https://cheery-shortbread-e9e183.netlify.app/",
   github: "https://github.com/cecilialetsau25/blazortools",
   duration: "2 months",
   about:
